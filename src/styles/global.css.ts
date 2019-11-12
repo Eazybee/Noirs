@@ -13,7 +13,13 @@ export default createGlobalStyle `
 
 body {
   font-size: 16px;
-  padding: 0 12%;
+  /* padding: 0 12%; */
   font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+@media screen  and (max-width:768px){
+  body{
+    font-size: 14px;
+  }
 }
 `
