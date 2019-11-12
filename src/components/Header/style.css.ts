@@ -10,11 +10,15 @@ export default styled.header<Props>`
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
-  padding: 1.1em  12% 1em 12%;
+  padding: .5em  1em .4em 1em;
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   overflow: hidden;
   transition: height 3s linear;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 
+  ${({ toggle }) => toggle ? 'background-color: #ffffff' : ''}
 
   button {
     transform: rotate(90deg);
@@ -73,7 +77,6 @@ export default styled.header<Props>`
     }
   }
   @media screen  and (max-width:768px){
-    padding: 1em  8%;
 
     h1{
       padding-left: .2em;
@@ -94,7 +97,14 @@ export default styled.header<Props>`
       transition: height .4s;
       overflow: hidden;
 
-      ${({ toggle }) => toggle ? 'visibility: visible; height: 12.5em;'  : 'height: 0;'}
+      ${({ toggle }) => toggle
+        ?
+          `visibility: visible;
+           height: 12.5em;
+           `
+        :
+          'height: 0;'
+      }
       ${({ hidden }) => hidden ? 'visibility: hidden;'  : ''}
 
       width: 100%;
