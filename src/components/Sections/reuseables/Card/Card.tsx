@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({ gear, product}) => (
         <figcaption>{gear ? 'Gear' : product.tag}</figcaption>
       </figure>
       <div>
-        <h3><a href='#'>{product.topic}</a></h3>
+        <h3><a href={product.imgLink}>{product.topic}</a></h3>
         {gear ? <p>{product.price} | by {product.by}</p> : <p>By <a href='#'>{product.by}</a></p>}
       </div>
     </span>

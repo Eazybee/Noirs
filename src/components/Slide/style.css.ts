@@ -48,24 +48,6 @@ export default styled.div`
         font-size: 1.2em;
         border-radius: 4px;
       }
-
-      button{
-        padding: .9em 2.1em;
-        font-size: .9em;
-        text-transform: uppercase;
-        background-color: #00BFAB;
-        color: #ffffff;
-        font-weight: 500;
-        border-radius: 5px;
-        opacity: .9;
-        transition: .2s linear;
-        cursor: pointer;
-
-        &:hover, &:focus{
-          background-color: #00BFAB;
-          opacity: 1;
-        }
-      }
     }
   }
 

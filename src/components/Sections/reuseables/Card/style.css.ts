@@ -17,6 +17,8 @@ export default styled.div`
       }
     }
 
+
+
     figure{
       overflow: hidden;
       span{
@@ -24,7 +26,14 @@ export default styled.div`
         display: block;
         height: 15.6em;
         a{
-          outline: none;
+          height: 15.6em;
+          display: block;
+          overflow: hidden;
+          width: 100%;
+
+          &:focus{
+            border: 3px #d9c05d solid;
+          }
         }
       }
 
@@ -32,7 +41,6 @@ export default styled.div`
         transition: .3s;
         width: 100%;
         height: 100%;
-        object-fit: cover;
         object-position: center;
       }
 
@@ -60,7 +68,6 @@ export default styled.div`
 
       p, p *{
         color: #999;
-        transition: color .2s;
       }
 
       p{
@@ -71,8 +78,11 @@ export default styled.div`
         }
       }
 
-      a:hover{
-        color: #00BFAB;
+      a{
+        transition: color .2s;
+        &:hover{
+          color: #00BFAB;
+        }
       }
     }
   }
@@ -83,7 +93,7 @@ export default styled.div`
   }
 
   @media screen  and (max-width:400px){
-    padding: 0 .2em 3em .2em;
+    padding: 0 .4em 3em .4em;
     width: 100%;
   }
 `;

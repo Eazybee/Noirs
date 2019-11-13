@@ -12,7 +12,7 @@ const Style = styled.h2`
   align-items: center;
   font-size: 2.3em;
   text-transform: uppercase;
-  padding: .4em 0;
+  padding: .4em 0 1em 0;
 
   &::after{
     content: ' ';

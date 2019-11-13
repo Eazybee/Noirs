@@ -21,7 +21,7 @@
   },
   "experimentalDecorators": true,
   "include": [
-    "./src/**/*", ".awcache/Header"
+    "./src/**/*", ".awcache/Header", ".awcache/Image"
   ],
   "exclude": [
     "node_modules",
