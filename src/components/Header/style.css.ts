@@ -1,8 +1,12 @@
-import styled,  {StyledFunction} from 'styled-components';
+import styled from 'styled-components';
+import { Interface } from 'readline';
 
 interface Props {
-  toggle: boolean,
-  hidden: boolean,
+  styles: {
+    toggle: boolean,
+    hidden: boolean,
+    background: string;
+  },
 }
 
 export default styled.header<Props>`
@@ -11,14 +15,16 @@ export default styled.header<Props>`
   align-items: center;
   flex-flow: row wrap;
   padding: .5em  1em .4em 1em;
-  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   overflow: hidden;
-  transition: height 3s linear;
+  transition: .5s linear;
   position: fixed;
   width: 100%;
   z-index: 2;
 
-  ${({ toggle }) => toggle ? 'background-color: #ffffff' : ''}
+  background-color: ${({ styles }) => styles.background};
+  ${({ styles }) => styles.background=== '#ffffff' ? 'box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.1)' : ''};
+
+  ${({ styles }) => styles.toggle ? 'background-color: #ffffff' : ''}
 
   button {
     transform: rotate(90deg);
@@ -68,6 +74,10 @@ export default styled.header<Props>`
     }
   }
 
+  li:not(:first-child){
+    margin-left: 1em;
+  }
+
   @keyframes toggle {
     0%{
       height: 0;
@@ -87,7 +97,7 @@ export default styled.header<Props>`
       font-size: 1.5em;
       border: .1px solid #00BFAB;
 
-      ${({ toggle }) => toggle && `
+      ${({ styles }) => styles.toggle && `
         background-color: #00BFAB;
         color: white;
       `}
@@ -97,7 +107,7 @@ export default styled.header<Props>`
       transition: height .4s;
       overflow: hidden;
 
-      ${({ toggle }) => toggle
+      ${({ styles }) => styles.toggle
         ?
           `visibility: visible;
            height: 12.5em;
@@ -105,7 +115,7 @@ export default styled.header<Props>`
         :
           'height: 0;'
       }
-      ${({ hidden }) => hidden ? 'visibility: hidden;'  : ''}
+      ${({ styles }) => styles.hidden ? 'visibility: hidden;'  : ''}
 
       width: 100%;
 
@@ -126,6 +136,9 @@ export default styled.header<Props>`
               background-color: #fafafa;
             }
           }
+        }
+        li:not(:first-child){
+          margin-left: 0;
         }
       }
     }
