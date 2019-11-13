@@ -61,7 +61,7 @@ export default styled.div`
     div{
       padding: 0 1em 2em 1em;
 
-      h3 {
+      h2 {
         font-size: 1.5em;
         padding: .5em 0;
       }

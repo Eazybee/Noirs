@@ -6,7 +6,7 @@ interface Props {
 }
 
 
-const Style = styled.h2`
+const Style = styled.h1`
   display: flex;
   flex-flow: column;
   align-items: center;
