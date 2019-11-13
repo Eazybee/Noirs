@@ -157,3 +157,33 @@ export const OurStory = {
   title: 'OUR STORY',
   text: `Noirbnb is global travel community that provides experiences and events with a focus on including and celebrating travelers of color. Our accommodations take our guests all around the world to popular destinations and events inspired by the African diaspora. Noirbnb was born in October 2015 after our co-founder, Stefan's experience while booking a stay in Atlanta. We realize his experience was not an isolated case and more importantly, that there was an opportunity to create a better, safer experience for travelers of color.`,
 };
+
+export const FeaturedInProps = {
+  title: 'Featured In',
+  data: [
+    {
+      src: 'src/assets/forbes.png',
+      title: 'Forbes'
+    },
+    {
+      src: 'src/assets/time.png',
+      title: 'Time'
+    },
+    {
+      src: 'src/assets/tech-insider.jpg',
+      title: 'Tech Insider'
+    },
+    {
+      src: 'src/assets/tech-insider.jpg',
+      title: 'Tech Insider'
+    },
+    {
+      src: 'src/assets/forbes.png',
+      title: 'Forbes'
+    },
+    {
+      src: 'src/assets/time.png',
+      title: 'Time'
+    },
+  ]
+};
