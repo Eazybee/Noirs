@@ -13,7 +13,7 @@ const Slide = () => {
         debounce={false}
         offsetVertical={300}
       >
-        <img src='src/assets/slide1.jpg' alt='welcome image' onLoad={imgOnLoad} className={className}/>
+        <img src='https://noirbnb.com/assets/img/slider/slide1.jpg' alt='welcome image' onLoad={imgOnLoad} className={className}/>
       </LazyLoad>
       <div>
         <label htmlFor='search'>Travel.Freely.</label>
