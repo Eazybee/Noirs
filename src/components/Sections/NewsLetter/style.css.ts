@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export default styled.section`
   width: 100%;
-  background-image: url('src/assets/newsletter.jpg');
+  background-image: url('https://noirbnb.com/assets/img/background.jpg');
   display: flex;
   justify-content: center;
   align-items: center;

@@ -4,7 +4,7 @@ export const FeatureProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/room1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
         imgAlt: 'Room',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -15,7 +15,7 @@ export const FeatureProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/room1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
         imgAlt: 'Room',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -26,7 +26,7 @@ export const FeatureProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/room1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
         imgAlt: 'Room',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -37,7 +37,7 @@ export const FeatureProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/room1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
         imgAlt: 'Room',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -48,7 +48,7 @@ export const FeatureProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/room1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
         imgAlt: 'Room',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -59,7 +59,7 @@ export const FeatureProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/room1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
         imgAlt: 'Room',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -75,7 +75,7 @@ export const GearProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/shirt.jpg',
+        imgSrc: 'https://noirbnb.com/assets/img/shop/keylogoblack.jpg',
         imgAlt: 'Shirt',
         topic: 'NOIRBNB KEY LOGO (BLACK).',
         by: 'Eazybee.',
@@ -86,7 +86,7 @@ export const GearProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/shirt.jpg',
+        imgSrc: 'https://noirbnb.com/assets/img/shop/keylogoblack.jpg',
         imgAlt: 'Shirt',
         topic: 'NOIRBNB KEY LOGO (BLACK).',
         by: 'Eazybee.',
@@ -97,7 +97,7 @@ export const GearProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/shirt.jpg',
+        imgSrc: 'https://noirbnb.com/assets/img/shop/keylogoblack.jpg',
         imgAlt: 'Shirt',
         topic: 'NOIRBNB KEY LOGO (BLACK).',
         by: 'Eazybee.',
@@ -114,7 +114,7 @@ export const StoriesProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/story1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
         imgAlt: 'Story',
         tag: 'Travels',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -125,7 +125,7 @@ export const StoriesProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/story1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
         imgAlt: 'Story',
         tag: 'Travels',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -136,7 +136,7 @@ export const StoriesProps = {
     {
       product: {
         imgLink: '#',
-        imgSrc: 'src/assets/story1.jpg',
+        imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
         imgAlt: 'Story',
         tag: 'Travels',
         topic: 'Katamah Guest House, Treasure Beach.',
@@ -161,27 +161,27 @@ export const FeaturedInProps = {
   title: 'Featured In',
   data: [
     {
-      src: 'src/assets/forbes.png',
+      src: 'https://noirbnb.com/assets/img/sponsors/forbes.png',
       title: 'Forbes'
     },
     {
-      src: 'src/assets/time.png',
+      src: 'https://noirbnb.com/assets/img/sponsors/time.png',
       title: 'Time'
     },
     {
-      src: 'src/assets/tech-insider.jpg',
+      src: 'https://noirbnb.com/assets/img/sponsors/tech-insider.jpg',
       title: 'Tech Insider'
     },
     {
-      src: 'src/assets/tech-insider.jpg',
+      src: 'https://noirbnb.com/assets/img/sponsors/tech-insider.jpg',
       title: 'Tech Insider'
     },
     {
-      src: 'src/assets/forbes.png',
+      src: 'https://noirbnb.com/assets/img/sponsors/forbes.png',
       title: 'Forbes'
     },
     {
-      src: 'src/assets/time.png',
+      src: 'https://noirbnb.com/assets/img/sponsors/time.png',
       title: 'Time'
     },
   ]
