@@ -61,11 +61,10 @@ export const FeatureProps = {
         imgLink: '#',
         imgSrc: 'src/assets/room1.jpg',
         imgAlt: 'Room',
+        tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
-        price: '$30',
       },
-      gear: true,
     }
   ]
 };

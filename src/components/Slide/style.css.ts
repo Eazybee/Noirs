@@ -8,7 +8,9 @@ export default styled.div`
   justify-content: center;
   align-items: center;
 
-  span{
+  & > div:first-child{
+    height: 100%;
+
     img{
       width: 100%;
       height: 100vh;
@@ -25,17 +27,18 @@ export default styled.div`
     }
   }
 
-  & > div{
+  & > div:last-child{
     position: absolute;
     margin: 0 auto;
     text-align: center;
     width: 70%;
 
-    h2{
+    label{
       color: #ffffff;
       font-size: 3em;
       text-transform: uppercase;
       font-weight: 500;
+      text-shadow: 0 0 5px rgba(0,0,0,1);
     }
 
     & form{
@@ -47,13 +50,15 @@ export default styled.div`
         padding: .6em ;
         font-size: 1.2em;
         border-radius: 4px;
+        box-shadow: 0 0 5px rgba(0,0,0,1);
       }
     }
   }
 
   @media screen  and (max-width:768px){
     & > div{
-      h2{ font-size: 1.5em;
+      label{
+        font-size: 1.5em;
       }
     }
   }

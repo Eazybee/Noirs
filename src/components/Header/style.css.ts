@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Interface } from 'readline';
 
 interface Props {
   styles: {
@@ -27,19 +26,21 @@ export default styled.header<Props>`
   ${({ styles }) => styles.toggle ? 'background-color: #ffffff' : ''}
 
   button {
-    transform: rotate(90deg);
     color: #00BFAB;
     display: none;
-    padding: .5em;
-    line-height: 1em;
-    height: 3em;
-    font-weight: 500;
-    text-align: center;
-    background-color: #ffffff;
+    padding: .3em .5em;
+    width: 2em;
+
+    path{
+      color: #ffffff;
+    }
   }
 
   h1{
-    color: #00BFAB;
+    /* color: #00BFAB; */
+    background: linear-gradient(0deg,rgba(30,113,124,1) 0%,rgba(0,191,171,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   ul{
@@ -66,7 +67,6 @@ export default styled.header<Props>`
       }
 
       &:hover, &:focus{
-        outline: none;
         &::after{
           background-color: #00BFAB;
         }

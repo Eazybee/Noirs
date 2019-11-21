@@ -33,9 +33,14 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
     "lodash.debounce": "^4.0.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-lazy-load": "^3.0.13",
     "react-router-dom": "^5.0.1",
     "styled-components": "^4.4.1",
     "useformbee": "^1.0.3",

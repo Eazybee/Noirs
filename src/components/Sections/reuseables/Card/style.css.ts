@@ -42,6 +42,11 @@ export default styled.div`
         width: 100%;
         height: 100%;
         object-position: center;
+        object-fit: cover;
+
+        &.gear{
+          object-fit: contain;
+        }
       }
 
       figcaption{
@@ -50,7 +55,7 @@ export default styled.div`
         position: relative;
         bottom: 1.1em;
         left: 1em;
-        color: #00BFAB;
+        color: #006156;
         background: #ffffff;
         display: inline-block;
         border-radius: 5px;
@@ -58,7 +63,7 @@ export default styled.div`
 
     }
 
-    div{
+    & > div{
       padding: 0 1em 2em 1em;
 
       h2 {
@@ -67,7 +72,7 @@ export default styled.div`
       }
 
       p, p *{
-        color: #999;
+        color: #595959;
       }
 
       p{
@@ -85,6 +90,11 @@ export default styled.div`
         }
       }
     }
+  }
+
+  @keyframes fadeInImg {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 
 

@@ -1,6 +1,8 @@
 import React, {
   useState,  useEffect, useRef,
 } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import _debounce from 'lodash.debounce';
 import Style from './style.css';
 
@@ -30,12 +32,14 @@ const Header: React.FC = () => {
          y: supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop
       };
 
-      if (scroll.y > 150) {
+      if (scroll.y > 250 && styles.background !== '#ffffff') {
         setStyles({
           ...styles,
           background: '#ffffff',
         });
-      } else {
+      }
+
+      if (scroll.y <=  250) {
         setStyles({
           ...styles,
           background: 'transparent',
@@ -50,7 +54,7 @@ const Header: React.FC = () => {
       hidden?: boolean
       background?: string,
     } = {};
-  
+
     if(toggle) {
       newStyles.background = 'transparent';
     } else{
@@ -68,7 +72,13 @@ const Header: React.FC = () => {
   return (
     <Style styles={styles}>
       <h1>Noirs</h1>
-      <button role='icon' arial-label='show menu' onClick={onCLick}>|||</button>
+      <button
+        arial-label={toggle ? 'close menu' :'show menu'}
+        title={toggle ? 'close menu' :'show menu'}
+        onClick={onCLick}
+      >
+        <FontAwesomeIcon icon={toggle ? faTimes : faBars} />
+      </button>
       <nav>
         <ul>
           <li ><a href='#' >Become A Host</a></li>

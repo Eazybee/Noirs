@@ -23,6 +23,9 @@ export default styled.section`
 
     p{
       margin: 1em 0;
+      color: #606363;
+      letter-spacing: .05em;
+      line-height: 1.5em;
     }
 
     form, form label{
