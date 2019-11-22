@@ -53,19 +53,16 @@ export default styled.div`
         box-shadow: 0 0 5px rgba(0,0,0,1);
       }
     }
-  }
 
-  @media screen  and (max-width:768px){
-    & > div{
+    @media screen  and (max-width:768px){
       label{
         font-size: 1.5em;
       }
     }
-  }
 
-  @media screen  and (max-width:320px){
-    & > div{
+    @media screen  and (max-width:320px){
       width: 90%;
     }
   }
+
 `

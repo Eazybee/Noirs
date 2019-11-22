@@ -43,6 +43,7 @@
     "react-lazy-load": "^3.0.13",
     "react-router-dom": "^5.0.1",
     "styled-components": "^4.4.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "useformbee": "^1.0.3",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"

@@ -5,7 +5,7 @@ export const FeatureProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
-        imgAlt: 'Room',
+        imgAlt: 'Room Image',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -16,7 +16,7 @@ export const FeatureProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
-        imgAlt: 'Room',
+        imgAlt: 'Room Image',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -27,7 +27,7 @@ export const FeatureProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
-        imgAlt: 'Room',
+        imgAlt: 'Room Image',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -38,7 +38,7 @@ export const FeatureProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
-        imgAlt: 'Room',
+        imgAlt: 'Room Image',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -49,7 +49,7 @@ export const FeatureProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
-        imgAlt: 'Room',
+        imgAlt: 'Room Image',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -60,7 +60,7 @@ export const FeatureProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
-        imgAlt: 'Room',
+        imgAlt: 'Room Image',
         tag: 'Fadeyi Room',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -76,7 +76,7 @@ export const GearProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/assets/img/shop/keylogoblack.jpg',
-        imgAlt: 'Shirt',
+        imgAlt: 'Shirt Image',
         topic: 'NOIRBNB KEY LOGO (BLACK).',
         by: 'Eazybee.',
         price: '$30',
@@ -87,7 +87,7 @@ export const GearProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/assets/img/shop/keylogoblack.jpg',
-        imgAlt: 'Shirt',
+        imgAlt: 'Shirt Image',
         topic: 'NOIRBNB KEY LOGO (BLACK).',
         by: 'Eazybee.',
         price: '$30',
@@ -98,7 +98,7 @@ export const GearProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/assets/img/shop/keylogoblack.jpg',
-        imgAlt: 'Shirt',
+        imgAlt: 'Shirt Image',
         topic: 'NOIRBNB KEY LOGO (BLACK).',
         by: 'Eazybee.',
         price: '$30',
@@ -115,7 +115,7 @@ export const StoriesProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
-        imgAlt: 'Story',
+        imgAlt: 'Story Image',
         tag: 'Travels',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -126,7 +126,7 @@ export const StoriesProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
-        imgAlt: 'Story',
+        imgAlt: 'Story Image',
         tag: 'Travels',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
@@ -137,7 +137,7 @@ export const StoriesProps = {
       product: {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
-        imgAlt: 'Story',
+        imgAlt: 'Story Image',
         tag: 'Travels',
         topic: 'Katamah Guest House, Treasure Beach.',
         by: 'Eazybee.',
