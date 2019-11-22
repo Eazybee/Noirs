@@ -36,6 +36,7 @@ export default styled.footer`
 
         p{
           max-width: 25em;
+          font-size: 1em;
         }
 
         ul{
