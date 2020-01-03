@@ -1,69 +1,64 @@
 export const FeatureProps = {
-  title: 'Featured Properties',
+  id:'service',
+  title: 'Our Services',
   cards: [
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
+        imgSrc: 'https://www.slideteam.net/media/catalog/product/cache/960x720/b/u/business_promotion_powerpoint_presentation_slides_Slide01.jpg',
         imgAlt: 'Room Image',
-        tag: 'Fadeyi Room',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Business Promotions',
+        by: 'Get a unique marketing plan for your business.',
       },
     },
 
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
+        imgSrc: 'http://www.eventfulnigeria.com/wp-content/uploads/2019/03/Ph-218-660x420.jpg',
         imgAlt: 'Room Image',
-        tag: 'Fadeyi Room',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Event Management',
+        by: 'Planning, organizing and supervising corporate and social events for discerning clients.',
       },
     },
 
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
+        imgSrc: 'https://ifmacdn.azureedge.net/sfcdn/images/default-source/about-ifma/people-technology-graphics.jpg?sfvrsn=0',
         imgAlt: 'Room Image',
-        tag: 'Fadeyi Room',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Facility Management',
+        by: 'You can count on our disciplines, accountability, safety and efficiency.',
       },
     },
 
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
+        imgSrc: 'https://www.michiganstateuniversityonline.com/wp-content/uploads/sites/3/2016/05/difference-between-supply-chain-and-logistics.jpg?w=715&h=375&crop=1',
         imgAlt: 'Room Image',
-        tag: 'Fadeyi Room',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Haulage and Logistics',
+        by: 'Data center logistics help increase ability to manage advanced supply chain networks.',
       },
     },
 
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
+        imgSrc: 'http://www.wapi.cd/uploads/images/slider-9-commerce_general.jpg',
         imgAlt: 'Room Image',
-        tag: 'Fadeyi Room',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Importers and Exporters',
+        by: 'Tested and Trusted by various happy client. Give us a try today.',
       },
     },
 
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/host/647259198.jpg',
+        imgSrc: 'https://www.dciproperty.com/wp-content/uploads/2019/12/IMG_9692-525x328.jpg',
         imgAlt: 'Room Image',
-        tag: 'Fadeyi Room',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Real Estate Consultant',
+        by: 'We develop, manage, sell and lease properties of all categories.',
       },
     }
   ]
@@ -109,6 +104,7 @@ export const GearProps = {
 };
 
 export const StoriesProps = {
+  id: 'stories',
   title: 'Stories',
   cards: [
     {
@@ -116,39 +112,41 @@ export const StoriesProps = {
         imgLink: '#',
         imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
         imgAlt: 'Story Image',
-        tag: 'Travels',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Event',
+        topic: 'My wedding ceremony was a success.',
+        by: 'Anna.',
       },
+      story: true,
     },
 
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
+        imgSrc: 'https://image.shutterstock.com/image-photo/girl-selling-tomatoes-vegetables-typical-260nw-1107376274.jpg',
         imgAlt: 'Story Image',
-        tag: 'Travels',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Importers and Exporters',
+        topic: 'Exporting goods has never been easier.',
+        by: 'Aisha.',
       },
+      story: true,
     },
 
     {
       product: {
         imgLink: '#',
-        imgSrc: 'https://noirbnb.com/uploads/1565177752.jpg',
+        imgSrc: 'https://image.freepik.com/free-photo/african-businessman-outdoor-modern-setting_53419-3177.jpg',
         imgAlt: 'Story Image',
-        tag: 'Travels',
-        topic: 'Katamah Guest House, Treasure Beach.',
-        by: 'Eazybee.',
+        tag: 'Business Promotions',
+        topic: 'exclusiveResults saved my business from folding up.',
+        by: 'Jide.',
       },
+      story: true,
     },
   ]
 };
 
 export const BecomeAHost = {
-  title: 'BECOME A HOST',
-  text: 'Joining the Noirbnb Host Community means joining an international tribe of warm, welcoming, and incredible people of all walks of life. From relaxed re-treats in the mountains of Negril, Jamaica to modern condos in Dallas, Texas, our host properties are specially procured and presented to provide a quality and memorable stay for our tribe of travelers. An added perk of being a Noirbnb Host is having our Noirbnb Concierge team as digital property managers to make Hosting a breeze.',
+  text: 'exclusiveResults Nigeria limited is a top notch business and political negotiator, professional real estate consultant and facilities management expert. We are into general business support with over 15years wealth experience in business and political world.',
   hasButtons: true,
 };
 
@@ -158,7 +156,8 @@ export const OurStory = {
 };
 
 export const FeaturedInProps = {
-  title: 'Featured In',
+  id: 'partners',
+  title: 'Partners',
   data: [
     {
       src: 'https://noirbnb.com/assets/img/sponsors/forbes.png',

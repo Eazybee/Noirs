@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import LazyLoad from 'react-lazy-load';
 import Style from './style.css';
+import Story from '../Sections/Story/Story';
+import { BecomeAHost } from '../Sections/data';
 
 const Slide = () => {
   const [loaded, setLoaded] = useState(false);
@@ -13,14 +15,10 @@ const Slide = () => {
         debounce={false}
         offsetVertical={300}
       >
-        <img src='https://noirbnb.com/assets/img/slider/slide1.jpg' alt='welcome image' onLoad={imgOnLoad} className={className}/>
+        <img src='https://raw.githubusercontent.com/Eazybee/Bee-Technology/master/resources/img/slider.jpg' alt='welcome image' onLoad={imgOnLoad} className={className}/>
       </LazyLoad>
       <div>
-        <label htmlFor='search'>Travel.Freely.</label>
-        <form role='form'>
-          <input type='search' id='search' placeholder='Search' required/>
-          <button>Search</button>
-        </form>
+        <Story {...BecomeAHost} />
       </div>
     </Style>
   );

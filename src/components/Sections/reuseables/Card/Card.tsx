@@ -13,9 +13,10 @@ export interface CardProps {
     by: string,
   },
   gear?: boolean,
+  story?: boolean,
 };
 
-const Card: React.FC<CardProps> = ({ gear, product}) => {
+const Card: React.FC<CardProps> = ({ gear, product, story}) => {
   const [loaded, setLoaded] = useState(false);
 
   const imgOnLoad: () => void = () => setLoaded(true);
@@ -48,8 +49,10 @@ const Card: React.FC<CardProps> = ({ gear, product}) => {
               <figcaption>{gear ? 'Gear' : product.tag}</figcaption>
             </figure>
             <div>
-              <h2><a href={product.imgLink}>{product.topic}</a></h2>
-              {gear ? <p>{product.price} | by <a href='#'>{product.by}</a></p> : <p>By <a href='#'>{product.by}</a></p>}
+              {product.topic && <h2><a href={product.imgLink}>{product.topic}</a></h2>}
+              {gear && <p>{product.price}</p>}
+              {story && <p>By <a href='#'>{product.by}</a></p>}
+              {!gear && !story && <p>{product.by}</p>}
             </div>
           </span>
         </Style>

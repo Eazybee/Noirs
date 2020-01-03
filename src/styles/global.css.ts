@@ -13,6 +13,10 @@ export default createGlobalStyle `
   outline-width: 5px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 16px;
   /* padding: 0 12%; */

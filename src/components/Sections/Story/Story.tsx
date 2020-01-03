@@ -3,19 +3,19 @@ import Title from '../reuseables/Title/Title';
 import Style from './style.css';
 
 interface StoryProps {
-  title: string,
+  title?: string,
   text: string,
   hasButtons?: boolean,
 };
 
 const Story: React.FC<StoryProps> = ({ title, text, hasButtons }) => (
   <Style>
-    <Title>{title}</Title>
+    {title && <Title>{title}</Title>}
     <p>{text}</p>
     {hasButtons && (
       <span>
-        <button>Become A Host</button>
-        <button>Join Noirbnb Hosts Community</button>
+        <button>Learn More</button>
+        <button>Contact Us</button>
       </span>
     )}
   </Style>

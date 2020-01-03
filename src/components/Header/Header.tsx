@@ -71,7 +71,7 @@ const Header: React.FC = () => {
 
   return (
     <Style styles={styles}>
-      <h1>Noirs</h1>
+      <h1>exclusiveResults</h1>
       <button
         arial-label={toggle ? 'close menu' :'show menu'}
         title={toggle ? 'close menu' :'show menu'}
@@ -81,11 +81,10 @@ const Header: React.FC = () => {
       </button>
       <nav>
         <ul>
-          <li ><a href='#' >Become A Host</a></li>
-          <li><a href='#' >Stories</a></li>
-          <li><a href='#' >Help</a></li>
-          <li><a href='#' >Signup</a></li>
-          <li><a href='#' >Login</a></li>
+          <li ><a href='#service' >Services</a></li>
+          <li><a href='#stories' >Stories</a></li>
+          <li><a href='#partners' >Partners</a></li>
+          <li><a href='#newsletter' >Contact</a></li>
         </ul>
       </nav>
     </Style>

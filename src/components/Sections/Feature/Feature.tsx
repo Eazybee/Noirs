@@ -7,16 +7,17 @@ import {CardProps} from '../reuseables/Card/Card';
 export interface FeatureProps {
   cards: CardProps[],
   title: string,
+  id: string | number;
 };
 
 const Style = styled.section`
   padding: 5em 0;
 `;
 
-const Feature: React.FC<FeatureProps> = ({ cards, title }) => (
-  <Style>
+const Feature: React.FC<FeatureProps> = ({ cards, title, id }) => (
+  <Style id={id}>
     <Title>{title}</Title>
-    <CardList cards={cards}/>
+    <CardList cards={cards} />
   </Style>
 )
 

@@ -16,6 +16,7 @@ export default styled.div`
       height: 100vh;
       object-fit: cover;
       object-position: center;
+      filter:  blur(2px);
     }
 
     &::after{
@@ -24,6 +25,8 @@ export default styled.div`
       height: 100%;
       left: 0;
       right: 0;
+      background-color: #333;
+      opacity: .1;
     }
   }
 

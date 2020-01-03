@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export default styled.footer`
   & *{
     color: #ffffff;
@@ -26,16 +25,17 @@ export default styled.footer`
 
         h1{
           margin-bottom: 1em;
-          font-size: 1.2em;
+          /* font-size: 1.2em; */
           text-transform: uppercase;
         }
 
         &:first-child h1{
-          color: #00BFAB;
+          color: #00bfab;
         }
 
         p{
           max-width: 25em;
+          font-size: .9em !important;
         }
 
         ul{

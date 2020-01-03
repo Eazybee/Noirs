@@ -13,10 +13,10 @@ const NewsLetter: React.FC = () => {
   });
 
   return(
-    <Style>
+    <Style id='newsletter'>
       <span>
         <h1>Get The Newsletter</h1>
-        <p>Featured properties from all over the world, special discounts, suggestions from our City Ambassadors, Travel perks and tips, gorgeous photography, and other updates are just a few things you can expect when you join Noirbnb Newsletter.Sign Up now and be a part of the movement. The World is Yours.</p>
+        <p>Featured properties from all over the world, special discounts, suggestions from our City Ambassadors, business perks and tips, gorgeous photography, and other updates are just a few things you can expect when you join exclusiveResult Newsletter.Sign Up now and be a part of the movement. The World is Yours.</p>
 
         <form  onSubmit={(e) => e.preventDefault()}>
           <label>

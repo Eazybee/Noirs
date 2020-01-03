@@ -13,8 +13,8 @@ const Footer = () => {
       <section>
         <span>
           <div>
-            <h1>Noirbnb</h1>
-            <p>Noirbnb is an accommodations provider and experience curator created specifically to procure safe and stress-free travel for the African Diaspora.</p>
+            <h1>exclusiveResult</h1>
+            <p>exclusiveResult is top notch business and political negotiator, professional real estate consultant and facilities management expert. We are into general business support with over 15years wealth experience in business and political world.</p>
           </div>
           <div>
             <h1>Company</h1>
